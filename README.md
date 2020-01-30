@@ -2,7 +2,7 @@
   Desafio 2: FastFeet.
 </h3>
 
-<p>Esse desafio faz parte do Desafio Final do Bootcamp GoStack da Rocketseat :rocket: </p>
+<p align="center">Esse desafio faz parte do Desafio Final do Bootcamp GoStack da Rocketseat :rocket: </p>
 
 ## :rocket: Sobre o desafio
 
