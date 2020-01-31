@@ -47,7 +47,9 @@ class RecipientController {
       return res.status(400).json({ error: 'Validation fails' });
     }
 
-    let recipient = await Recipient.findByPk(req.recipientId);
+    const { recipientId } = req.params;
+
+    let recipient = await Recipient.findByPk(recipientId);
 
     if (!recipient) {
       return res.status(400).json({ error: 'Recipient does not found' });
